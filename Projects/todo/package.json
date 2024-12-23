@@ -1,0 +1,18 @@
+
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A simple todo list application",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "keywords": ["todo", "angular", "typescript"],
+  "author": "Your Name",
+  "license": "MIT"
+} 
