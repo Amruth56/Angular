@@ -4,9 +4,14 @@
 
 <div class="sidebar">
     <ul>
-    <li> <a href="#">DashBoard</a></li>
-    <li> <a href="#">Parking Lots</a></li>
-    <li> <a href="#"></a>Reports</li>
-    <li> <a href="#"></a>Settings</li>
+    <li> <a routerLink="parking-lot">DashBoard</a></li>
+    <li> <a routerLink="home">Parking Lots</a></li>
+    <li> <a routerLink="parking-lot">Reports</a></li>
+    <li> <a href="#">Settings</a></li>
 </ul>
+</div>
+
+<div class="content">
+    <router-outlet></router-outlet>
+    
 </div>
